@@ -1,0 +1,113 @@
+@import "variable";
+
+.arbol-dashboard {
+  .nombre {
+    font-size: 0.9em;
+    cursor: pointer;
+
+    span {
+      color: $yellow;
+      margin-right: 5px;
+    }
+  }
+
+  .fuente {
+    font-size: 0.8em;
+    cursor: pointer;
+
+    i {
+      font-size: 0.8em;
+    }
+
+    span {
+      margin-right: 5px;
+      margin-left: 5px;
+      color: $yellow;
+    }
+  }
+
+  .catalogo {
+    cursor: pointer;
+    font-size: 0.8em;
+
+    i {
+      font-size: 0.8em;
+    }
+
+    span {
+      margin-left: 5px;
+      color: $yellow;
+    }
+  }
+
+  .anio {
+    cursor: pointer;
+    font-size: 0.8em;
+
+    i {
+      font-size: 0.7em;
+    }
+
+    span {
+      margin-left: 5px;
+      color: $yellow;
+    }
+  }
+}
+
+.linea {
+  height: 1px;
+  border-bottom: solid 1px $dark-text !important;
+}
+
+.nav-item {
+  a {
+    font-size: 0.75em;
+    color: $headingtext;
+  }
+
+  .active {
+    font-weight: bold;
+    color: $success !important;
+  }
+
+}
+
+.dashboard {
+
+  .separador {
+    height: 5px;
+  }
+
+  .linea {
+    border-top: solid 1px $grey-border;
+    height: 1px;
+    width: 100%;
+  }
+
+  .btn-dash {
+    background-color: $light-text;
+    margin-left: 5px;
+    padding: 6px;
+    min-width: 70px;
+
+    i {
+      font-size: 11px;
+    }
+  }
+
+  .btn-success {
+    background-color: $success !important;
+  }
+}
+
+.buble-tree {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+
+.custom-component-drop-zone {
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,128 @@
+@import "variable";
+
+.huella {
+  .huella-titulo {
+    color: $green;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .table {
+    border: none;
+
+    th {
+      border-top: $huella-border solid 1px;
+      border-right: $huella-border solid 1px;
+      border-left: $huella-border solid 1px;
+      border-bottom: $huella-border solid 1px;
+      text-align: center;
+      font-size: 11px;
+    }
+
+    td {
+      background-color: #ffffff;
+      border-right: none;
+      padding-left: 8px;
+      height: 25px !important;
+      color: rgb(70, 70, 0);
+      font-size: 11px;
+    }
+
+    .head-verde {
+      background-color: $green;
+      color: $huella-color;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .huella-cuerpo {
+      cursor: pointer;
+      background-color: $huella-cuerpo;
+      font-size: 11px;
+
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .total-huella {
+    height: 40px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    background-color: #979797;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 12px;
+
+    div {
+      margin-top: 15px;
+    }
+  }
+
+  .hc-total {
+    height: 32px;
+    border-right: 1px solid #fff;
+    background-color: #979797;
+    text-align: center;
+    color: #fff;
+    padding-top: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 288px;
+  }
+
+  .hc-total-result {
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #979797;
+    text-align: center;
+    color: #fff;
+    padding-top: 8px;
+    width: 126px;
+    float: left;
+    height: 32px;
+  }
+}
+
+.arbol-huella {
+  a {
+    cursor: pointer;
+    padding: 2px 35px 8px 15px !important;
+  }
+
+  .fa {
+    font-size: 10px;
+  }
+
+  .g-tittle-yelow {
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  div {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.arbol-fuentes {
+  a {
+    cursor: pointer;
+    padding: 2px 35px 8px 15px !important;
+  }
+
+  .fa {
+    font-size: 10px;
+  }
+
+  .g-tittle-yelow {
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
